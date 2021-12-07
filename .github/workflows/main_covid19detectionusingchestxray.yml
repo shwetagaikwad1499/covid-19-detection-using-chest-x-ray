@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'covid19detectionusingchestxray'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6940A50693D347308B47980E2F963A14 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9783EAEE047E4C7E832ABE3E503C0DA6 }}

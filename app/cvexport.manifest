@@ -1,0 +1,13 @@
+{
+  "DomainType": "Classification",
+  "Platform": "DockerFile",
+  "Flavor": "Linux",
+  "ExporterVersion": "2.1",
+  "ExportedDate": "2021-12-07T09:34:24.3239192Z",
+  "IterationId": "2633f6e9-34c9-44f7-828c-1ab1a0cd2c32",
+  "ModelFileName": "model.pb",
+  "LabelFileName": "labels.txt",
+  "MetadataPropsFileName": "metadata_properties.json",
+  "ModelFileSHA1": "d6a1e6798cf3ccf1b9fa6ee12252ca31175f3315",
+  "SchemaVersion": "1.0"
+}

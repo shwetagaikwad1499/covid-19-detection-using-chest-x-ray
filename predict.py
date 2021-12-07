@@ -8,8 +8,13 @@ import sys
 
 import mscviplib
 
-filename = 'model.pb'
-labels_filename = 'labels.txt'
+import os
+
+scriptpath = os.path.abspath(__file__)
+scriptdir = os.path.dirname(scriptpath)
+filename = os.path.join(scriptdir, 'model.pb')
+
+labels_filename = os.path.join(scriptdir,'labels.txt')
 
 network_input_size = 0
 
@@ -53,6 +58,9 @@ def predict_url(imageUrl):
     """
     predicts image by url
     """
+    log_msg("Loading the TF Model")
+    initialize()
+    
     log_msg("Predicting from url: " +imageUrl)
     with urlopen(imageUrl) as testImage:
         image = Image.open(testImage)

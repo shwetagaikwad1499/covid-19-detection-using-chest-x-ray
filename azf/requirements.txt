@@ -1,7 +1,0 @@
-# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
-
-azure-functions
-numpy==1.17.3
-tensorflow==2.7.0
-flask
-pillow
